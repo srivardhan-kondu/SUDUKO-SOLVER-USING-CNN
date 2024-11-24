@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver Results</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sudoku Solver Results</h1>
+    </header>
+    <main>
+        <div class="results-container">
+            <div class="image-container">
+                <h2>Uploaded Sudoku</h2>
+                <img src="{{ original_img }}" alt="Uploaded Sudoku">
+            </div>
+            <div class="image-container">
+                <h2>Solved Sudoku</h2>
+                <img src="{{ solved_img }}" alt="Solved Sudoku">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Project by Srivardhan</p>
+    </footer>
+</body>
+</html>
