@@ -7,7 +7,7 @@ from solver import get_board
 import imutils
 
 app = Flask(__name__)
-model = load_model('model-OCR.h5')
+model = load_model('sudukomodel.h5')
 input_size = 48
 classes = np.arange(0, 10)
 
